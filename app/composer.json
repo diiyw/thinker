@@ -1,0 +1,15 @@
+{
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "require": {
+    "robmorgan/phinx": "^0.10.6",
+    "monolog/monolog": "^1.23",
+    "filp/whoops": "^2.2",
+    "diiyw/thinker": "^0.3.0",
+    "ext-json": "*"
+  }
+}
