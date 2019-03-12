@@ -1,13 +1,13 @@
 <?php
-
-namespace home;
+namespace home\controller;
 
 use thinker\Controller;
 
 class Index extends Controller
 {
+
     public function view()
     {
-        $this->view->display();
+        $this->view->display("home\index");
     }
 }
