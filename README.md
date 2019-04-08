@@ -18,20 +18,19 @@ git clone https://github.com/diiyw/thinker.git
 │   ├── composer.json
 │   ├── composer.lock
 │   ├── database
-│   │   ├── db
-│   │   │   ├── migrations
-│   │   │   └── seeds
-│   │   └── phinxConfig.php
+│   │   ├── migrations
+│   │   ├── phinxConfig.php
+│   │   └── seeds
 │   ├── modules
 │   │   └── home
-│   │       ├── config
-│   │       │   ├── db.php
-│   │       │   └── router.php
-│   │       └── Index.php
-│   ├── plugins
-│   │   ├── Session.php
-│   │   └── Whoops.php
-│   └── vendor
+│   │       ├── controller
+│   │       │   ├── Index.php
+│   │       │   └── IndexFilter.php
+│   │       └── HomeConst.php
+│   └── plugins
+│       └── thinker
+│           ├── Session.php
+│           └── Whoops.php
 ├── README.md
 ├── views
 │   └── default
@@ -43,13 +42,12 @@ git clone https://github.com/diiyw/thinker.git
     ├── cache
     │   └── default
     │       ├── common
-    │       │   ├── footer.html
     │       │   └── footer.phtml
     │       └── home
-    │           ├── index.html
     │           └── index.phtml
     ├── index.php
     └── logs
+        └── sys.log
 ```
 
 # 快速创建模块
