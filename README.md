@@ -56,6 +56,3 @@ git clone https://github.com/diiyw/thinker.git
 # ../vendor/bin/thinker create
 ```
 按照提示即可一步创建
-
-# 模型使用
-- https://medoo.in
